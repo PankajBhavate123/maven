@@ -11,6 +11,8 @@ public class test1 {
 	    int r =334;
 	    System.out.println(i+r);
 
+		system.out.println("merged the code")
+
 	}
 
 }
