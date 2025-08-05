@@ -7,6 +7,9 @@ public class test1 {
 		
 		
 		System.out.println("this is my firts test cases");
+	    int i =33;
+	    int r =334;
+	    System.out.println(i+r);
 
 	}
 
