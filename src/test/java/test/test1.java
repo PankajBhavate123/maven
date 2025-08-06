@@ -1,16 +1,19 @@
 package test;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class test1 {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		
-		System.out.println("this is my firts test cases");
-	    int i =33;
-	    int r =334;
-	    System.out.println(i+r);
 
+ @Test
+	public void test() {
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver =new ChromeDriver();
+		
 	}
-
+	
 }
